@@ -2,12 +2,12 @@
     width: 80px
 }
 
-.btn-platzi {
+.btn-green {
     background-color: #97c93e;
     color: white;
 }
 
-.btn-platzi:hover{
+.btn-green:hover{
     background-color: #82ad36;
 }
 
@@ -73,7 +73,7 @@
     color:aliceblue
 }
 
-.text-platzi {
+.text-green {
     color: #97c93e
 }
 
