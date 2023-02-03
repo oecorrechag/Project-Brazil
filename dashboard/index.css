@@ -41,12 +41,13 @@
     text-align: right;
 }
 
-#place-time {
+#Modelo {
     background-color: #343a40;
     color: white;
+    padding: 80px 0px 30px 0px;
 }
 
-#place-time img {
+#Modelo img {
     max-width: 100%;
     padding: 10px;
 }
@@ -61,6 +62,10 @@
 
 #footer a:hover {
     text-decoration: underline;
+}
+
+#footer p{
+    color:aliceblue
 }
 
 .text-platzi {

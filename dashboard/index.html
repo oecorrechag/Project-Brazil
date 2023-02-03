@@ -268,113 +268,84 @@
     </section>
     <!--/DOE-->
 
-    <!--Lugar y fecha-->
-    <section id="place-time">
+    <!--Modelo-->
+    <section id="Modelo">
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 col-lg-6 pl-0 pr-0">
-            <img src="assets/images/honolulu.jpeg" alt="honolulu">
+            <img src="assets/results/matriz.png" alt="matriz">
           </div>
           <div class="col-12 col-lg-6 pt-4 pb-4">
-            <h2>Conferencias 2030</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora voluptatem quasi doloremque rerum, nulla voluptate. Accusamus, tempora. Consectetur tempora fuga quasi, cumque atque obcaecati quisquam dolorem iste voluptatum dolorum nostrum.</p>
-            <a class="btn btn-outline-light" href="https://es.wikipedia.org/wiki/Honolulu"> Conoce más </a>
+            
+            <img src="assets/results/precision.png" alt="precision">
+            <h2>Modelos</h2>
+            <p>Se Ajustaron 3 modelos, una Red Neuronal Convolucional, un Bosque Aleatorio y una Regresión Logística. Se calificaron con las métricas de f1_score, accuracy, precision_score, recall_score y matriz de confusión, dándole más relevancia a esta última.</p>
+
+            <a class="btn btn-outline-light" href="https://es.wikipedia.org/wiki/Honolulu"> Codigo </a>
+          
           </div>
+
         </div>
       </div>
     </section>
-    <!--/Lugar y fecha-->
+    <!--/Modelo-->
 
-    <!--Conviertete en orador-->
-    <section id="conviertete-en-orador" class="pt-3 pb-3">
+
+    <!--/Resultados-->
+
+    <section id="Resultados" class="mt-4">
       <div class="container">
-
         <div class="row">
-          <div class="col text-uppercase text-center">
-            <small class=""> Conviertete en un </small>
-            <h2> Orador </h2>
+          <div class="col text-center text-uppercase">
+            <h2> Resultados </h2>
+            <small> Resultados de los modelos y sugerencias </small>
           </div>
         </div>
-
-        <div class="row">
-          <div class="col text-center">
-            Anotate como orador para dar una <abbr data-bs-toggle="tooltip" title="talks of mins">charla ignite</abbr>.
-            Cuentanos de que quienes hablar?
+  
+        <div class="row pt-4">
+  
+          <div class="col-12 col-md-6 col-lg-6 mb-4">
+            <div class="card">
+              <div class="card-body">
+  
+                <h5 class="card-title"> Resultados </h5>
+                <p class="card-text"> Inicialmente se tiene que el modelo CNN tiene problemas ya que las redes neuronales son demandantes en imagenes por lo cual este modelo presenta sobreajuste, la Regresión Logística es un modelo no es demandante en muestras. Al comparar las metricas númericas la Regresión Logística presenta mejores metricas sobre todos los modelos tambien presenta la mejor matriz de confusion, por ultimo el tiempo de ajuste de modelos el modelo CNN tarda aproximadamente 15 minutos en ser entrenado, la Regresión Logística tarda solo tarda 1 segundo. </p>
+  
+              </div>
+            </div>
           </div>
-        </div>
+  
+          <div class="col-12 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body">
+              
+                <h5 class="card-title"> Sugerencias </h5>
+                <p class="card-text"> Realizar un nuevo diseño de experimento. </p>
+                <p class="card-text"> Aumentar las muestras, ya que estos modelos pueden ser potencializados con mayores y mejores imagenes. </p>
+                <p class="card-text"> Se elige la Regresión Logística por presentar mejores tiempos y metricas. </p>
 
-        <div class="row">
-          <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
-
-            <div class="row">
-              <div class="form-label col-12 col-md-6">
-                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-              </div>
-              <div class="form-label col-12 col-md-6">
-                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="form-label col">
-                <textarea name="text" class="form-control form-control-lg" placeholder="Sobre tu charla" cols="10" rows="5"></textarea>
-                <small class="form-text text-muted"> Recuerde poner <abbr data-bs-toggle="tooltip" title="talk name">titulo</abbr>. </small>
               </div>
             </div>
-
-            <div class="row">
-              <div class="col">
-                <button type="button" class="btn btn-platzi w-100">Enviar</button>
-              </div>
-            </div>
-
           </div>
+        
         </div>
-
       </div>
-    </section>
-    <!--/Conviertete en orador-->
+  </section>
 
+    <!--/Resultados-->
 
-    
 
     <!--Footer-->
 
-    <footer class="footer">
+    <footer id="footer" class="text-center pb-4 pt-4">
       <hr>
       <p>&copy; copyright </p>
-      <p>Build with HTML, CSS, Flask and <span class="love">❤</span> by <a href="https://github.com/oecorrechag">Oscar</a></p>
+      <p> Build with HTML, CSS and <span class="love"> ❤ </span> by <a href="https://www.linkedin.com/in/oscar-correcha/"> Oscar </a></p>
     </footer>
-<!-- 
-    <footer id="footer" class="pb-4 pt-4">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-12 col-lg">
-                    <a href="#">Preguntas frecuentes</a>
-                </div>
-                <div class="col-12 col-lg">
-                    <a href="#">Contactenos</a>
-                </div>
-                <div class="col-12 col-lg">
-                    <a href="#">Prensa</a>
-                </div>
-                <div class="col-12 col-lg">
-                    <a href="#">Conferencias</a>
-                </div>
-                <div class="col-12 col-lg">
-                    <a href="#">Terminos y condiciones</a>
-                </div>
-                <div class="col-12 col-lg">
-                    <a href="#">Privacidad</a>
-                </div>
-                <div class="col-12 col-lg">
-                    <a href="#">Estudiantes</a>
-                </div>
-            </div>
-        </div>
-    </footer> -->
+
     <!--/Footer-->
 
+    
     <!-- Modal -->
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal fade" id="modalCompra" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
