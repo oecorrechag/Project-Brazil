@@ -108,6 +108,10 @@ Figura 1: Matriz de Confusión del ajuste de la Regresión Logística.
 
 ![alt text](https://github.com/oecorrechag/Project-Brazil/blob/main/images/poster.png)
 
+# App
+
+https://oecorrechag.github.io/Project-Brazil/
+
 ### Bibliografia
 
 cafedecolombia. Defectos de Café Verde. Recuperado de: http://www.cafedecolombia.com/clientes/es/regulacion_nacional/exportadores/2831_calidades_de_exportacion/
